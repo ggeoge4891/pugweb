@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+
+}
+
+#banner {
+    /* 背景圖片 */
+    background-image: url(imgs/banner.jpg);
+    /* 圖片尺寸 滿版 */
+    background-size: 100vw;
+    /* bgr 背景圖片重複 */
+    background-repeat: no-repeat;
+    /* 寬度 vw 螢幕寬度 */
+    width: 100vw;
+    /* 高度 */
+    height: 900px;
+
+
+}
+
+#logo {
+    width: 300px;
+}
+
+#link{
+    /* 浮動，往右 */
+    float: right;
+    padding: 40px 0;
+}
+
+#link a {
+    color: #ffffff;
+    /* 連結底線 */
+    text-decoration: none;
+    /* 內距: 上下 左右 */
+    padding: 5px 20px ;
+    /* 字體粗細 0-900 */
+    font-weight: 800;
+    
+}
+
+#link a:hover{
+    background-color: #ffe048;
+    color: black;
+    transition: 0.6s;
+    
+}
+/* 導覽列區塊 */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
