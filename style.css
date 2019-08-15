@@ -4,6 +4,9 @@
     font-family: 微軟正黑體;
 
 }
+body{
+    background-color: #faf7f0;
+}
 
 #banner {
     /* 背景圖片 */
@@ -14,8 +17,8 @@
     background-repeat: no-repeat;
     /* 寬度 vw 螢幕寬度 */
     width: 100vw;
-    /* 高度 */
-    height: 900px;
+    /* 高度 calc 計算 - CSS 計算數字 +.-.*./*/ 
+    height: calc(100vw / 2.1);
 
 
 }
@@ -52,4 +55,41 @@ nav {
     width: 80%;
     margin: 0 auto;
     padding: 50px 0;
+}
+
+/* 品牌區塊 */
+#brands {
+    text-align: center;
+    color: #58451a
+}
+/* 標題區塊 */
+.title-box{
+    text-align: center;
+    color: #58451a;
+}
+
+.title {
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.title::before{
+    content: "＼";
+    padding-right: 20px;    
+}
+
+.title::after{
+    content: "／";
+    padding-left: 20px;
+}
+
+#brands p{
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 2;
+    /* 透明度 0-1 */
+    opacity: 0.6;
+    /* 字距 */
+    letter-spacing: 6px;
 }
